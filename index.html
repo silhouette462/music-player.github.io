@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-free music streaming platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <li class="logo"><img src="images/logo.png" alt="logo"></li>
+        <div class="navbar-links">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Support</li>
+                <li>Download</li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search here" name="box">
+            <div class="btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <li>Sign Up/Log in</li>
+        </div>
+        <div class="menubar">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </nav>
+    <div class="container">
+        <!-- <div class="musiclist"> -->
+        <h1>WEEKLY TOP HITS</h1>
+        <div class="songitembox">
+            <div class="songitem">
+                <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_578458917_2000133020009280183_117186.jpg"
+                    alt="1"><span class="songname">abcd</span><span class="timestamp">4:10 <i id="0"
+                        class="far songItemPlay fa-play-circle"></i> </span>
+            </div>
+        </div>
+        <div class="songitembox">
+            <div class="songitem">
+                <img src="https://manofmany.com/wp-content/uploads/2020/03/8d-Technology-Audio.jpg" alt="2"><span
+                    class="songname">abcd</span><span class="timestamp">4:10 <i id="1"
+                        class="far songItemPlay fa-play-circle"></i> </span>
+            </div>
+        </div>
+        <div class="songitembox">
+            <div class="songitem">
+                <img src="https://online.berklee.edu/takenote/wp-content/uploads/2022/01/how_to_write_a_love_song_article_image_2022-1.png"
+                    alt="3"><span class="songname">abcd</span><span class="timestamp">4:10 <i id="2"
+                        class="far songItemPlay fa-play-circle"></i> </span>
+            </div>
+        </div>
+        <div class="songitembox">
+            <div class="songitem">
+                <img src="https://thumbs.dreamstime.com/b/pink-audio-cassette-tape-label-tag-love-song-tangled-tape-pink-audio-cassette-tape-label-tag-love-song-tangled-tape-121907002.jpg"
+                    alt="4"><span class="songname">abcd</span><span class="timestamp">4:10 <i id="3"
+                        class="far songItemPlay fa-play-circle"></i> </span>
+            </div>
+        </div>
+        <div class="songitembox">
+            <div class="songitem">
+                <img src="https://media.istockphoto.com/photos/love-song-picture-id184978684?b=1&k=20&m=184978684&s=170667a&w=0&h=ujOkR1rSI2-1tYXnEEylE8vzbC4I-CE5txHl4-gZ4ag="
+                    alt="5"><span class="songname">abcd</span><span class="timestamp">4:10 <i id="4"
+                        class="far songItemPlay fa-play-circle playbutton"></i> </span>
+            </div>
+        </div>
+        <div class="songitembox">
+            <div class="songitem">
+                <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/9270/iStock-678064058-rev.jpg" alt="6"><span
+                    class="songname">abcd</span><span class="timestamp">4:10 <i id="5"
+                        class="far songItemPlay fa-play-circle"></i> </span>
+            </div>
+        </div>
+
+        <!-- </div> -->
+    </div>
+    <div class="extras">
+        <div class="same latest"><span>Latest Hits <i id="0" class="far songItemPlay fa-play-circle"></i> </span>
+        </div>
+        <div class="same liked"><span>Liked songs <i id="0" class="far songItemPlay fa-play-circle"></i> </span></div>
+        <div class="same Hot100"><span>Hot 100 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></div>
+    </div>
+    <div class="progressBar">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <span id="masterSongName">
+            Warriyo - Mortals [NCS Release]
+        </span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
